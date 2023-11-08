@@ -1,0 +1,6 @@
+FIND "TCB" AT "D:/Internship/TCB";
+HAS (
+    string Appdir WITH DEFAULT "C:\Users\sziba\Desktop\New folder",
+) AS installation_parameters;
+UNINSTALL "TCB";
+EXECUTE "Simcenter Test Cloud Blueprint Setup.exe" WITH installation_parameters;
